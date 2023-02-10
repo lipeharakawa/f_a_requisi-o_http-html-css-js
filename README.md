@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Requisição http é uma página web que consome uma API Externa e é mostrado as informações contidas nessa API na tela do navegador. A API Externa está disponível [aqui](https://sujeitoprogramador.com/rn-api/?api=posts).
 
-- [ Visite o projeto online ](https://lipeharakawa.github.io/f_a_requisi-o_http-html-css-js)
+- [ Visite o projeto online ](https://lipeharakawa.github.io/f_a_requisicao_http-html-css-js)
 
 ## ✅ Licença
 
