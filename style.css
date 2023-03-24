@@ -1,24 +1,46 @@
 *{
-    margin: 0 auto;
+    box-sizing: border-box;
     width: 100%;
 }
 
-ul{
-    margin-top: 16px;
-    margin-bottom: 16px;
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+}
+
+.section{
+    text-align: justify;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section ul{
     max-width: 450px;
+    padding: 20px;
 }
 
-ul li{
+.section ul li{
     list-style: none;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
-img{
+.section img{
+    border-radius: 10px;
     max-width: 450px;
     height: 250px;
-    border-radius: 4px;
     margin: 8px 0;
+    margin-bottom: 10px;
+}
+
+@media  screen and (max-width: 650px){
+    .section img{
+        max-width: 90%;
+    }
 }

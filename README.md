@@ -1,4 +1,4 @@
-<h1 align="center"> Requisição http - Consumindo API Externa </h1>
+<h1 align="center">Requisição http - Consumindo API Externa</h1>
 
 <p align="center">
 Programa desenvolvido durante os estudos do curso Fabrica de Aplicativos - Sujeito Programador.<br/>
@@ -17,7 +17,7 @@ Programa desenvolvido durante os estudos do curso Fabrica de Aplicativos - Sujei
 <br>
 
 <p align="center">
-  <img alt="Foto projeto Requisição http - Consumindo API Externa" src=".github/preview.jpg" width="100%">
+  <img alt="Foto projeto Requisição http - Consumindo API Externa" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Requisição http é uma página web que consome uma API Externa e é mostrado as informações contidas nessa API na tela do navegador. A API Externa está disponível [aqui](https://sujeitoprogramador.com/rn-api/?api=posts).
 
-- [ Visite o projeto online ](https://lipeharakawa.github.io/f_a_requisicao_http-html-css-js)
+- [ Visite o projeto online ](https://lipeharakawa.github.io/requisicao-http)
 
 ## ✅ Licença
 

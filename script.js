@@ -12,20 +12,20 @@ function nutriApp(){
 
         posts.map((item) => {
             let liElement = document.createElement("li");
-            let titleElement = document.createElement("strong");
+            let h2Element = document.createElement("h2");
             let imgElement = document.createElement("img");
-            let descriptionElement = document.createElement("a");
+            let pElement = document.createElement("p");
 
             let titleText = document.createTextNode(item.titulo);
-            titleElement.appendChild(titleText);
-            liElement.appendChild(titleElement);
+            h2Element.appendChild(titleText);
+            liElement.appendChild(h2Element);
 
             imgElement.src = item.capa;
             liElement.appendChild(imgElement)
 
             let descriptionText = document.createTextNode(item.subtitulo);
-            descriptionElement.appendChild(descriptionText);
-            liElement.appendChild(descriptionElement);
+            pElement.appendChild(descriptionText);
+            liElement.appendChild(pElement);
 
             listElement.appendChild(liElement);
         });
